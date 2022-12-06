@@ -1,6 +1,6 @@
 # RajFilmes
 
-App de listagens de filmes, onde os usários podem fazer comentarios sobre esses filmes
+App de listagens de filmes, onde os usários podem fazer comentarios sobre esses filmes. Esse app foi desenvolvido como um trabalho para a disciplina de Topicos em Sistemas de Informação II, na UFMS-CPTL.
 
 Para o desenvolvimeto foi utilizado java de forma nativa para android e integração com firebase e seus recursos
 
