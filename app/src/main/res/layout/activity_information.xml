@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:fillViewport="true"
+    tools:context=".InformationActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/lblLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="RAJFilmes"
+            android:textColor="@color/primaryColor"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblFrase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="Para os cinéfilos de plantão, essa é a melhor forma de encontrar os melhores filmes e realizar as suas criticas!"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblAutores" />
+
+        <TextView
+            android:id="@+id/lblAutores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="By Fabrício e Felipe"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblVersao" />
+
+        <TextView
+            android:id="@+id/lblVersao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="v1.0.0"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblLogo" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="16dp"
+            android:text="Faça uma doação para o pix:"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblFrase"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="339dp"
+            android:layout_height="252dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/doacao" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

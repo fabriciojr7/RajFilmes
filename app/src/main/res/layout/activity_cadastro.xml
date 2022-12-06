@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:background="@color/backgroundColor">
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/container_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="@id/logo"
+        app:layout_constraintStart_toStartOf="@id/logo"
+        app:layout_constraintTop_toTopOf="@id/logo"
+        app:layout_constraintBottom_toBottomOf="@id/logo"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="402dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="12dp"
+        android:text="Faça o seu cadastro no RAJFilmes"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/custom_input"
+        android:hint="Nome"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#bfbfbf"
+        android:textColorHint="#bfbfbf"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="268dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="E-mail"
+        android:drawableRight="@drawable/ic_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#bfbfbf"
+        android:textColorHint="#bfbfbf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNome" />
+
+    <EditText
+        android:id="@+id/txtPassWord"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Senha"
+        android:drawableRight="@drawable/ic_lock"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="textPassword"
+        android:textColorHint="#bfbfbf"
+        android:textColor="#bfbfbf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/radius_color"
+        android:text="Confirmar"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassWord" />
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/radius_color"
+        android:text="Cancelar"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConfirmar" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

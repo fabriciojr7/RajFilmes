@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPosterDetail"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/backgroundColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poster" />
+
+        <TextView
+            android:id="@+id/lblTituloDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="Doutor Estranho no Multiverso da Loucura (2022)"
+            android:textColor="@color/primaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgPosterDetail" />
+
+        <TextView
+            android:id="@+id/lblDescricaoDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="Doutor Estranho, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso."
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblTituloDetail" />
+
+        <TextView
+            android:id="@+id/lblGeneroDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="Fantasia, Ação, Aventura"
+            android:textColor="@color/subTitleColor"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblDescricaoDetail" />
+
+        <Button
+            android:id="@+id/btnSendComment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/radius_color"
+            android:text="Adicionar comentário"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_add_comment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblGeneroDetail" />
+
+        <TextView
+            android:id="@+id/lblVizualizarComentarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Vizualizar comentários"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSendComment" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

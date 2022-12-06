@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/backgroundColor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/radius_color">
+
+        <TextView
+            android:id="@+id/lblCommentItem"
+            android:layout_width="383dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="The Northman é o tipo de filme em que até a lama tem raiva; é um filme visceral cheio de codas para as inescapáveis regiões mais escuras da natureza: animal, elementar e o mais duro de tudo, humano. Todos eles vibram através das paisagens sonoras distorcidas de Eggers e da trilha sonora de Robin Carolan e Sebastian Gainsborough, enquanto reverbs ambientais e delays decadentes remontam às origens primordiais. As paisagens de sonho hipnóticas e alucinantes tentam um alcance semelhante: a equipe de efeitos visuais de crack renderiza a árvore genealógica de Amleth, um substituto em constante evolução para a regra divina, como uma samambaia arterial azul brilhante surgindo de seu coração enquanto se conecta ao nosso. É um dos muitos tentáculos mágicos que se entrelaçam e às vezes dão nós, “The Northman”, um filme em que Björk retrata um vidente cego apontando Amleth para uma espada com uma lâmina sem corte e uma sede insaciável de morte."
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblDataCommentItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="19/10/2022 16:38"
+            android:textColor="@color/subTitleColor"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblCommentItem" />
+
+        <TextView
+            android:id="@+id/lblNomeUserComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="Kratos"
+            android:textColor="@color/subTitleColor"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblCommentItem" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">RajFilmes</string>
+    <string name="Sobre">Sobre o app</string>
+    <string name="Perfil">Perfil</string>
+
+    <string-array name="filme_title">
+        <item>Doutor Estranho no Multiverso da Loucura (2022)</item>
+        <item>Uncharted: Fora do Mapa (2022)</item>
+        <item>Jurassic World: Domínio (2022)</item>
+        <item>Morbius (2022)</item>
+        <item>O Peso do Talento (2022)</item>
+        <item>Lightyear (2022)</item>
+        <item>Sonic 2: O Filme (2022)</item>
+        <item>Cidade Perdida (2022)</item>
+        <item>O Homem do Norte (2022)</item>
+        <item>Assassino Sem Rastro (2022)</item>
+    </string-array>
+
+    <string-array name="filme_description">
+        <item>Doutor Estranho, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso.</item>
+        <item>Nathan Drake e seu parceiro canastrão Victor Sully Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.</item>
+        <item>Quatro anos após a destruição da Ilha Nublar, os dinossauros agora vivem – e caçam – ao lado de humanos em todo o mundo. Esse frágil equilíbrio remodelará o futuro e determinará, de uma vez por todas, se os seres humanos continuarão sendo os principais predadores em um planeta que agora compartilham com as criaturas mais temíveis da história.</item>
+        <item>Gravemente doente com um raro distúrbio sanguíneo e determinado a salvar outros sofrendo o mesmo destino, o Dr. Morbius tenta uma aposta desesperada. O que primeiramente parece ser um sucesso radical, libera uma escuridão dentro dele e transforma esse médico em um caçador.</item>
+        <item>A versão fictícia de Nicolas Cage aceita uma oferta de US＄1 milhão para participar do aniversário de um super fã perigoso, Javi Gutierrez. As coisas tomam um rumo inesperado quando Nick Cage é recrutado por uma agente da CIA e forçado a viver de acordo com sua própria lenda, canalizando seus personagens mais icônicos e amados na tela para salvar a si mesmo e seus entes queridos.</item>
+        <item>A aventura de ação e ficção científica apresenta a história de origem definitiva de Buzz Lightyear - o herói que inspirou o brinquedo - apresentando o lendário Space Ranger que conquistaria gerações de fãs.</item>
+        <item>Depois de se estabelecer em Green Hills, Sonic está pronto para mais liberdade e deixar sua marca como um herói, e Tom e Maddie concordam em deixá-lo em casa enquanto vão de férias. Mas, assim que eles se foram, Dr. Robotnik volta, desta vez com um novo parceiro, Knuckles, em busca de uma esmeralda que tem o poder de construir e destruir civilizações. Sonic se une a um novo companheiro, Tails, e juntos eles embarcam em uma jornada para encontrar a esmeralda antes que ela caia nas mãos erradas.</item>
+        <item>Uma romancista reclusa acredita que nada seria pior que fazer a turnê do seu livro mais recente com o modelo que ilustra a capa. Tudo muda quando a autora e o modelo sofrem uma tentativa de sequestro, e, com isso, são levados para uma surpreendente aventura na selva.</item>
+        <item>Baseado na obra de Shakespeare, Hamlet, e na lenda viking de Amelth. No ano de 914, o príncipe Amleth (Alexander Skarsgård testemunha o brutal assassinato de seu pai, Horvendill (Ethan Hawke por seu tio, Fjölnir (Claes Bang. O menino foge mas jura que voltará para vingar seu pai, salvar sua mãe e matar seu tio. Vinte anos depois conhece uma vidente que o lembra que é chegada a hora de cumprir sua promessa.</item>
+        <item>Em Assassino Sem Rastro, Alex Lewis é um assassino experiente com reputação de precisão discreta. Preso em um dilema moral, Alex se recusa a concluir um trabalho que viola seu código de ética e deve rapidamente caçar e matar as pessoas que o contrataram antes que eles e o agente do FBI Vincent Serra o encontrem primeiro. Alex tinha o objetivo de se vingar, mas, com uma memória que começa a vacilar, ele é forçado a questionar todas as suas ações, se perdendo na linha entre o certo e o errado.</item>
+    </string-array>
+
+    <string-array name="filme_genre">
+        <item>Fantasia, Ação, Aventura</item>
+        <item>Ação, Aventura</item>
+        <item>Ação, Aventura, Ficção científica</item>
+        <item>Ação, Ficção científica, Fantasia</item>
+        <item>Ação, Comédia, Crime</item>
+        <item>Animação, Ficção científica, Aventura, Ação, Família</item>
+        <item>Ação, Aventura, Família, Comédia</item>
+        <item>Ação, Aventura, Comédia</item>
+        <item>Ação, Aventura, Fantasia</item>
+        <item>Ação, Thriller, Crime</item>
+    </string-array>
+
+
+    <string-array name="comments">
+        <item>The Northman é o tipo de filme em que até a lama tem raiva; é um filme visceral cheio de codas para as inescapáveis regiões mais escuras da natureza: animal, elementar e o mais duro de tudo, humano. Todos eles vibram através das paisagens sonoras distorcidas de Eggers e da trilha sonora de Robin Carolan e Sebastian Gainsborough enquanto reverbs ambientais e delays decadentes remontam às origens primordiais. As paisagens de sonho hipnóticas e alucinantes tentam um alcance semelhante: a equipe de efeitos visuais de crack renderiza a árvore genealógica de Amleth, um substituto em constante evolução para a regra divina, como uma samambaia arterial azul brilhante surgindo de seu coração enquanto se conecta ao nosso. É um dos muitos tentáculos mágicos que se entrelaçam e às vezes dão nós, “The Northman”, um filme em que Björk retrata um vidente cego apontando Amleth para uma espada com uma lâmina sem corte e uma sede insaciável de morte.</item>
+        <item>The Northman é o tipo de filme em que até a lama tem raiva; é um filme visceral cheio de codas para as inescapáveis regiões mais escuras da natureza: animal, elementar e o mais duro de tudo, humano. Todos eles vibram através das paisagens sonoras distorcidas de Eggers e da trilha sonora de Robin Carolan e Sebastian Gainsborough enquanto reverbs ambientais e delays decadentes remontam às origens primordiais. As paisagens de sonho hipnóticas e alucinantes tentam um alcance semelhante: a equipe de efeitos visuais de crack renderiza a árvore genealógica de Amleth, um substituto em constante evolução para a regra divina, como uma samambaia arterial azul brilhante surgindo de seu coração enquanto se conecta ao nosso. É um dos muitos tentáculos mágicos que se entrelaçam e às vezes dão nós, “The Northman”, um filme em que Björk retrata um vidente cego apontando Amleth para uma espada com uma lâmina sem corte e uma sede insaciável de morte.</item>
+    </string-array>
+
+    <string-array name="comment_title_film">
+        <item>O Homem do Norte (2022)</item>
+        <item>O Homem do Norte (2022)</item>
+    </string-array>
+
+    <string-array name="comment_date">
+        <item>19/10/2022 16:38</item>
+        <item>19/10/2022 16:38</item>
+    </string-array>
+
+    <string-array name="comment_user">
+        <item>Kratos</item>
+        <item>Kratos</item>
+    </string-array>
+</resources>

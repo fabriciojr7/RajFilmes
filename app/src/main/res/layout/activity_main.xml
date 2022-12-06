@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primaryColor"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000">
+
+            <EditText
+                android:id="@+id/txtPesquisa"
+                android:layout_width="353dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Procurar"
+                android:textColorHint="#bfbfbf"
+                android:textColor="#bfbfbf"
+
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listFilms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/carView"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/film_item" />
+</RelativeLayout>

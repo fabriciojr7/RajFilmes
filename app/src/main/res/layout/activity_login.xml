@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/backgroundColor">
+
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/container_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="@id/logo"
+        app:layout_constraintStart_toStartOf="@id/logo"
+        app:layout_constraintTop_toTopOf="@id/logo"
+        app:layout_constraintBottom_toBottomOf="@id/logo"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="402dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="12dp"
+        android:text="Seja Bem-Vindo(a) ao RAJFilmes"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/btnSendComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/radius_color"
+        android:text="Acessar"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassWordLogin" />
+
+    <EditText
+        android:id="@+id/txtEmailLogin"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="E-mail"
+        android:drawableRight="@drawable/ic_email"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#bfbfbf"
+        android:textColor="#bfbfbf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/txtPassWordLogin"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Senha"
+        android:drawableRight="@drawable/ic_lock"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="textPassword"
+        android:textColorHint="#bfbfbf"
+        android:textColor="#bfbfbf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailLogin" />
+
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/circularLogo"-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:src="@drawable/kratos"-->
+<!--        android:background="#fff"/>-->
+
+
+
+    <TextView
+        android:id="@+id/lblCliqueAqui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Não possui cadastro? Clique aqui e faça o seu"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSendComment" />
+</androidx.constraintlayout.widget.ConstraintLayout>

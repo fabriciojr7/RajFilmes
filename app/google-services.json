@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "803033842735",
+    "project_id": "raj-films",
+    "storage_bucket": "raj-films.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803033842735:android:fbf9c21dd0241e3c8672da",
+        "android_client_info": {
+          "package_name": "com.example.rajfilms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803033842735-bq2ug37undmoi6408l5kf089so6ndkvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPpvNAgPPDeklbdTAnIr4Qy5r0Vog5u6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803033842735-bq2ug37undmoi6408l5kf089so6ndkvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
